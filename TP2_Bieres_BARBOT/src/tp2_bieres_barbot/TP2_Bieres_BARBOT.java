@@ -19,8 +19,9 @@ public class TP2_Bieres_BARBOT {
         uneBiere.lireEtiquette();
         BouteilleBiere autreBiere = new BouteilleBiere("Leffe", 6.6, "Abbaye de Leffe");
         uneBiere.lireEtiquette();
-        
-                
+        BouteilleBiere Biere1 = new BouteilleBiere ("heineken", 5.0, "Allemagne");
+        BouteilleBiere Biere2 = new BouteilleBiere ("desperados",5.9,"Suisse" );
+        BouteilleBiere Biere3 = new BouteilleBiere ("1664", 5.5, "Alsace");       
                 
              
         
