@@ -19,6 +19,11 @@ public class TP2_Bieres_BARBOT {
         uneBiere.Brasserie = "Dubuisson";
         uneBiere.Ouvert = false;
         uneBiere.lireEtiquette();
+        BouteilleBiere autreBiere = new BouteilleBiere();
+        autreBiere.nom = "Leffe"; autreBiere.degreAlcool = 6.6;
+        autreBiere.Brasserie = "Abbaye de Leffe";
+        uneBiere.Ouvert = false;
+        uneBiere.lireEtiquette();
                 
                 
              
