@@ -15,6 +15,21 @@ public class TP2_manip_BARBOT {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Tartiflette assiette1 = new Tartiflette(500) ; 
+        Tartiflette assiette2 = new Tartiflette(600) ;
+        Tartiflette assiette3 = assiette2;             // seulement 2 tartiflettes créées
+                                                       // assiette 2 et 3 font reference a la meme assiette
+        System.out.println(Tartiflette assiette1);
+        System.out.println(Tartiflette assiette2);
+        System.out.println(Tartiflette assiette3);
+                                                       
+        
+        System.out.println("nb de calories de Assiette 2 : " + assiette2.nbCalories) ;
+        System.out.println("nb de calories de Assiette 3 : " + assiette3.nbCalories) ;
+        
+        
+        
     }
     
 }
