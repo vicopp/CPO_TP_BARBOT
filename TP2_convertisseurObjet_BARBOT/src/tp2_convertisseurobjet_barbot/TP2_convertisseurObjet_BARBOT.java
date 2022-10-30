@@ -17,7 +17,10 @@ public class TP2_convertisseurObjet_BARBOT {
         double res;
         Convertisseur monconvertisseur = new Convertisseur();
         
-        
+          Scanner sc = new Scanner (System.in); // creation scanner pour demander a l'utilisateur quel conversion effectuer
+       
+        System.out.println("Veuillez choisir une conversion 1:(Celcius vers Kelvin) 2:(Kelvin vers Celcius) 3:(Farenheit vers Celcius) 4:(Celcius vers Farenheit) 5:(Kelvin vers Farenheit) 6:(Farenheit vers Kelvin)");
+
     }
         
     }
