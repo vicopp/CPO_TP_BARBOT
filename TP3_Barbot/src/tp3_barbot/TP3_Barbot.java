@@ -19,11 +19,11 @@ public class TP3_Barbot {
     Arme m = new Arme ("arme standard", 4);
     
     
+    Epée ex = new Epée ("excalibur", 7, 5);
+    Epée dur = new Epée ("durandal", 4, 7);
+    baton charme = new baton ("charme", 4, 5);
+    baton chene = new baton ("chene", 5, 6);
     
-    m.setAttaque(10);
-   
-    
-    System.out.println(m);
     
    
     
