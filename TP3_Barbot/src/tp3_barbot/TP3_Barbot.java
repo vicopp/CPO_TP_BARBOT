@@ -4,6 +4,8 @@
  */
 package tp3_barbot;
 
+import armes.*;
+
 /**
  *
  * @author victor
@@ -14,11 +16,18 @@ public class TP3_Barbot {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    Arme m = new Arme("arme standart", 4);
+    Arme m = new Arme ("arme standard", 4);
     
-    m.setAttaque(25);
     
-    int i = m.getAttaque()
+    
+    m.setAttaque(10);
+   
+    
+    System.out.println(m);
+    
+   
+    
+    
     
     
     
