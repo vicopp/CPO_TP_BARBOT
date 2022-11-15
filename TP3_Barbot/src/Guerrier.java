@@ -13,7 +13,12 @@ public class Guerrier extends Personnages {
     
     public Guerrier(String n, int i, boolean cheval) {
         super(n, i);
-        c=cheval;
+        c=cheval;    
+    }
+
+  
+    public void setC(boolean c) {
+        this.c = c;
     }
     
 }
