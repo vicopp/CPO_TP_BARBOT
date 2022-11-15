@@ -5,6 +5,7 @@
 package tp3_barbot;
 
 import armes.*;
+import java.util.ArrayList;
 
 /**
  *
@@ -23,6 +24,15 @@ public class TP3_Barbot {
     Epée dur = new Epée ("durandal", 4, 7);
     baton charme = new baton ("charme", 4, 5);
     baton chene = new baton ("chene", 5, 6);
+    
+    ArrayList<Arme> Tab = new ArrayList<Arme>(); 
+    Tab.add(ex);
+    Tab.add(dur);
+    Tab.add(charme);
+    Tab.add(chene);
+    
+    
+    
     
     
    
