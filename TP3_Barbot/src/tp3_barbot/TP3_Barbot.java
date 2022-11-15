@@ -31,8 +31,7 @@ public class TP3_Barbot {
     Tab.add(charme);
     Tab.add(chene);
     
-    
-    
+    System.out.println(Tab);
     
     
    
