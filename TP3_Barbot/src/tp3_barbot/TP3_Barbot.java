@@ -31,9 +31,13 @@ public class TP3_Barbot {
     Tab.add(charme);
     Tab.add(chene);
     
-    System.out.println(Tab);
+    System.out.println(Tab); 
     
     
+   Magicien gandalf = new Magicien ("gandalf", 65, true);
+   Magicien garcimore = new Magicien ("garcimore", 44, false);
+   Guerrier conan = new Guerrier ("conan", 78, false);
+   Guerrier Lannister = new Guerrier ("Lannister", 45, true);
    
     
     
